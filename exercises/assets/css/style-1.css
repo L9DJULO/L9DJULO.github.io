@@ -10,10 +10,11 @@ img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 
 h1 {
+    font-size: 84px;
+    margin-bottom: 64px;
     text-align: center;
     font-weight: normal;
-    letter-spacing: -2px;
-    margin-bottom: 32px;
+    letter-spacing: 4px;
 }
 
 h2 {
