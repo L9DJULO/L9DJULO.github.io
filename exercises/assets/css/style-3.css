@@ -10,6 +10,15 @@ section *:last-child { margin-bottom: 0 !important }
 @media (min-width: 768px ) { body { text-rendering: optimizeLegibility } }
 img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
+/* Desktops */
+@media (min-width: 768px) {
+    section { padding: 4% 20% }
+ }
+ 
+ /* Mobiles */
+ @media (max-width: 767px) {
+    section { padding: 5% 5% }
+ }
 
 
 h2 {
