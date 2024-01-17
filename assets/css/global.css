@@ -1,25 +1,32 @@
 /*  ============= WEB BROWSER RESETS ============ */
-body { background-color: #ffffff; }
 * { margin: 0; padding: 0; border: none }
 *, *::before, *::after { box-sizing: border-box }
 html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
 scroll-behavior: smooth; scroll-padding-top: 20px }
-body { line-height: 1.5; min-height: 100vh }
+body { max-width: 1920px; line-height: 1.5; margin-left: auto; margin-right: auto; 
+    min-height: 100vh; text-rendering: optimizeSpeed }
 @media (max-width: 767px ) { body { text-rendering: optimizeSpeed } }
 @media (min-width: 768px ) { body { text-rendering: optimizeLegibility } }
 img { width: 100%; height: auto; display: block }
+h1, h2, h3, h4 { width: 100% }
 input, button, textarea, select { font: inherit }
+img { width: 100%; height: auto; display: block }
 
 /* ================= ENDS ================ */
-/* Desktops */
 @media (min-width: 768px) {
     body { padding: 4% 20% }
  }
- 
  /* Mobiles */
  @media (max-width: 767px) {
     body { padding: 8% 5% }
  }
+
+body { 
+    background-color: #f8f5f3;
+    border-top: solid 40px #ceb5ff;   
+    border-bottom: solid 40px #ceb5ff
+}
+/* Desktops */
 
 body {
     text-align: center;
@@ -53,5 +60,28 @@ p {
     font-size: 20px;
     margin-bottom: 16px;
 }
-a { color: #a862ea; }
+a { color: #6545a4; }
+
+
+
+.link {
+    margin: 54px 0; /*  Only top and bottom margins have values */
+    padding: 16px; /* Same value on all four sides. */
+    border-style: solid; /* Same value on all four sides. */
+    border-width: 1px; /* All four borders have equal widths. */
+    border-color: #000; /* All four borders have same black color. */
+}
+
+.link p {
+    font-size: 18px; /* Overrules p font-size valueoutside panel box. */
+    line-height: 1.5; /* Overrules p line-height value outside panel box. */
+    margin-bottom: 0; /* Overrules p margin-bottom value outside panel box. */
+}
+
+.link {
+    padding: 22px; /* Extra padding at edges to make reversed text (light-on-dark) more readable */
+    border-radius: 10px;
+    border-color: #6545a4;
+    background-color:   #e7daff; /* Add rounded effect to all four corners */ 
+ }
 
