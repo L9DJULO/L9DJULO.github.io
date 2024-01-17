@@ -62,14 +62,14 @@ p {
 }
 a { color: #6545a4; }
 
-
-
 .link {
     margin: 54px 0; /*  Only top and bottom margins have values */
-    padding: 16px; /* Same value on all four sides. */
     border-style: solid; /* Same value on all four sides. */
     border-width: 1px; /* All four borders have equal widths. */
     border-color: #000; /* All four borders have same black color. */
+    padding: 20px;
+    margin-bottom: 42px;
+    width: 20%;
 }
 
 .link p {
@@ -84,4 +84,3 @@ a { color: #6545a4; }
     border-color: #6545a4;
     background-color:   #e7daff; /* Add rounded effect to all four corners */ 
  }
-
