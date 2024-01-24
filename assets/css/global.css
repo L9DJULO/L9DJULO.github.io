@@ -48,6 +48,22 @@ h3 {
     text-transform: uppercase;
 }
 
+.Titre {
+    line-height: 1.2;
+    color:#fff;
+    text-shadow: 2px 2px #222; 
+}
+
+.Titre h1 {
+    font-size: calc(64px + (112 - 64) * ((100vw - 320px) / (1600 - 320)));
+    margin-bottom: 24px;
+}
+
+.Titre h2 {
+    font-weight: normal;
+    font-size: calc(30px + (64 - 30) * ((100vw - 320px) / (1600 - 320)));
+    text-transform: uppercase;
+}
 p {
     font-size: 20px;
     margin-bottom: 16px;
