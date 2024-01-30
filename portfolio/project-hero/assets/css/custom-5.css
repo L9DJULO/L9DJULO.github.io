@@ -2,6 +2,8 @@
 .section-selector-1 { background-color: var(--gray-200) }
 .col-3 h3 { margin-bottom: 16px }
 
+
+/* =============== Add your custom CSS below =========== */
 header.theme-dark .badge { color: var(--white-000) }
 header.theme-dark .badge { background-color: var(--black-000) }
 header.theme-dark h1 { color: var(--green-400) }
@@ -44,6 +46,7 @@ header.theme-dark .container-btn a.btn:nth-child(2):focus,
 header.theme-dark .container-btn a.btn:nth-child(2):hover,
 header.theme-dark .container-btn a.btn:nth-child(2):active { border-color: var(--green-500) }
 
+
 header.theme-dark .badge {
     text-decoration: underline;
     text-decoration-thickness: 2px;
@@ -65,5 +68,3 @@ header.theme-dark h2 {
     font-family: 'Zilla Slab', serif;
     font-weight: 400;
 }
-
-/* =============== Add your custom CSS below =========== */
