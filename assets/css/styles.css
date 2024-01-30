@@ -1,7 +1,9 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 .container {
@@ -10,78 +12,103 @@ body {
 }
 
 header {
-    background-color: #24252A;
-    color: #61dafb;
-    padding: 2em 0;
+    background-color: #4285f4;
+    color: #fff;
+    padding: 20px 0;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 
 header p {
-    font-size: 1.2em;
+    font-size: 1.5em;
+    font-weight: 400;
 }
 
 section {
-    padding: 3em 0;
+    padding: 40px 0;
+    text-align: center;
 }
 
 .bg-light {
-    background-color: #f8f9fa;
+    background-color: #fff;
 }
 
 h2 {
-    color: #24252A;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
 }
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
 }
 
 .skill {
-    background-color: #61dafb;
+    background-color: #4CAF50;
     color: #fff;
-    padding: 1em;
-    text-align: center;
-    border-radius: 5px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.skill:hover {
+    background-color: #45a049;
 }
 
 .project {
     background-color: #fff;
-    color: #24252A;
-    border: 1px solid #ccc;
-    padding: 1.5em;
-    border-radius: 5px;
-    margin-bottom: 1em;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project h3 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.project p {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #666;
+}
+
+.project a {
+    color: #4285f4;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.project a:hover {
+    color: #3367d6;
 }
 
 footer {
-    background-color: #24252A;
+    background-color: #333;
     color: #fff;
-    padding: 1em 0;
+    padding: 20px 0;
     text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-.skill a,
-.project a {
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    background-color: #61dafb;
-    padding: 0.5em 1em;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.skill a:hover,
-.project a:hover {
-    background-color: #4fa3d1;
 }
