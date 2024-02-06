@@ -12,7 +12,7 @@
         *, *::before, *::after { box-sizing: border-box }
         html { height: 100%; font: inherit; font-size: 100%; vertical-align: baseline;
         scroll-behavior: smooth; scroll-padding-top: 20px }
-        body { max-width: 1920px; line-height: 1.5; margin-left: auto; margin-right: auto; 
+        body { background-color: #232946; max-width: 1920px; line-height: 1.5; margin-left: auto; margin-right: auto; 
         min-height: 100vh; text-rendering: optimizeSpeed }  
         img { width: 100%; height: auto; display: block }
         h1, h2, h2, h4 { width: 100% }
@@ -23,6 +23,7 @@
         @media (max-width: 767px) { body { padding: 12% 8% } }
 
         h1 { 
+            color: #b8c1ec;
             font-size: calc(28px + (48 - 28) * ((100vw - 320px) / (1140 - 320)));
             font-weight: bold;
             line-height: 1.2;
@@ -30,11 +31,13 @@
         }
         
         h2 { 
+            color: #fffffe; 
             font-size: calc(22px + (30 - 22) * ((100vw - 320px) / (1140 - 320)));
             margin-top: 32px;
         }
         
         p {
+            color: #b8c1ec;
             line-height: 1.5;
             margin-bottom: 14px;
             font-size: calc(16px + (18 - 16) * ((100vw - 320px)/(1600 - 320)));
@@ -45,6 +48,7 @@
         }
 
         li {
+            color: #fffffe; 
             line-height: 1.5;
             margin-bottom: 14px;
             font-size: calc(16px + (18 - 16) * ((100vw - 320px)/(1600 - 320)));
