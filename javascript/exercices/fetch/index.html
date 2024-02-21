@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        
+    const URI_1 = "https://reqres.in/api/users";
+    const URI_2 = "https://reqres.in/api/users/2";
+    const_URI_3 = "https://jsonplaceholder.typicode.com/users";
+    const_URI_4 = "https://pokeapi.co/api/v2/eevee";
+    console.log(fetch(URI_1));
+    	
+    fetch('https://reqres.in/api/users', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+        name: 'User 1'
+        })
+        }).then(res => {
+        return res.json()
+    })
+    .then(data => console.log(data))
+    .catch(error => console.log('ERROR'))
+
+
+
+
+    </script>
+    
+</body>
+</html>
