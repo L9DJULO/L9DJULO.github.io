@@ -1,1 +1,0 @@
-	mongodb+srv://juleslange:jAqsxXwmEHqPXYjL@cluster0.2awbebz.mongodb.net/?retryWrites=true&w=majority
