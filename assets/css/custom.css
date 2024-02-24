@@ -2,7 +2,7 @@ nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #2329
 header.theme-dark   { background-color: #232946}
 header.theme-dark  h1 { color: #fffffe; }
 header.theme-dark h2 {color: #b8c1ec;}
-section.theme-dark{ background-color: #d4d8f0;}
+section.theme-dark{ background-color: #b8c1ec;}
 
 theme-dark .col-1 h3.in-col-1, .theme-dark .col-1 h3,.theme-dark .col-1 h2 {
     color: #232946;
