@@ -48,7 +48,7 @@ header .col-text h2, .col-1 > h3 { line-height: 1.8 }
   font-style: normal;
 }
 .theme-dark a:not(.btn):hover {
-    color: #eebbc3;
+    color: #9656a1;
     font-family: "Ubuntu", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -63,7 +63,6 @@ header.cols-2-half .col-text, header.cols-2-half .col-visual {
     padding-top: 3%;
     padding-bottom: 5%;
 }
-
 
 .theme-dark .btn-solid:link, .theme-dark .btn-solid:visited {
     color: #232946;
@@ -80,4 +79,13 @@ header.cols-2-half .col-text, header.cols-2-half .col-visual {
     font-family: "Ubuntu", sans-serif;
   font-weight: 500;
   font-style: normal;
+}
+
+footer.theme-dark a:visited {
+  color: #b8c1ec !important;
+}
+
+/* Change color on hover */
+footer.theme-dark a:hover {
+  color: #9656a1 !important ;
 }
